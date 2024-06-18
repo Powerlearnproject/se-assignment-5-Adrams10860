@@ -77,15 +77,58 @@ Tasks peformed
 
 9. File and Folder Management:
    - Explain how to create, open, and manage files and folders in VS Code. How can users navigate between different files and directories efficiently?
+1. Create a New File/Folder--Right-click in the Explorer view and select New File or New Folder.
 
-10. Settings and Preferences:
+2. Drag and drop files/folders into the Explorer or use File > Open Folder to open a directory.
+
+3. Manage Files/Folders-Use the Explorer to rename, delete, or move files and folders.
+
+Efficient Navigation:
+1. Quick Open: Press Ctrl + P to quickly open files by typing part of the file name.
+2. Explorer: Use the Explorer view for a tree view of the workspace.
+3. Breadcrumbs: Use breadcrumbs at the top of the editor for navigation.
+
+
+ 10. Settings and Preferences:
    - Where can users find and customize settings in VS Code? Provide examples of how to change the theme, font size, and keybindings.
+*Finding and Customizing Settings*
+Access Settings--Go to File > Preferences > Settings
+
+*Change Theme*
+Search for "Color Theme" in settings and select your preferred theme.
+
+*Change Font Size*
+Search for "Font Size" and adjust the value.
 
 11. Debugging in VS Code:
    - Outline the steps to set up and start debugging a simple program in VS Code. What are some key debugging features available in VS Code?
+*Setting Up and Starting Debugging*
+
+Open the Debug View--Click on the Debug icon in the Activity Bar 
+
+
 
 11. Using Source Control:
     - How can users integrate Git with VS Code for version control? Describe the process of initializing a repository, making commits, and pushing changes to GitHub.
+
+
+   Integrating Git with VS Code:
+*Initialize a Repository*
+
+1. Open your project folder in VS Code.
+2. Open the Source Control view by clicking the Source Control icon in the Activity Bar or pressing Ctrl + Shift + G.
+3. Click on "Initialize Repository".
+
+*Making Commits*
+
+1. Stage changes by clicking the "+" icon next to the files in the Source Control view.
+2. Enter a commit message and click the checkmark icon to commit.
+
+*Pushing Changes to GitHub*
+
+1. Open the Command Palette (Ctrl + Shift + P) and type "Remote" to add a remote repository.
+2. Use git remote add origin <repository-url> to link your local repo to GitHub.
+3. Push changes using git push -u origin main.
 
  Submission Guidelines:
 - Your answers should be well-structured, concise, and to the point.
